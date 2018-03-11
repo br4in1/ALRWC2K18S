@@ -1,0 +1,144 @@
+$main-skin: #d00f01;
+/* Backgrounds ----------------------------------------------------------*/
+
+.camera_prevThumbs, .camera_nextThumbs, .camera_prev, .camera_next, .camera_commands, .camera_thumbs_cont,
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span,
+.btn-primary,
+.btn-primary:hover,
+.style-caption h1,
+.nav-tabs li.active a,
+.nav-tabs li a.active,
+.nav-tabs li a.active:hover,
+.nav-tabs li a:hover,
+.title-color,
+.tags a:hover,
+.title-aside,
+.pagination .active,
+.info-player h4 a,
+.tooltip-inner,
+.owl-theme .owl-controls .owl-buttons div,
+#theme-options .layout-style li.active,
+.thumbs li:hover,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+
+.item-player .btn,
+.item-team .btn,
+.btn-iw.outline:hover,
+.info-slider h1:before,
+.btn.theme,
+
+.section-title.single-result .result-match,
+.clear-title:after
+
+{
+	background: $main-skin;
+	background-color: $main-skin;
+}
+.footer-down{
+	background: #0088cc url("../../../img/img-theme/footer-down.png") repeat-x left 1px;
+}
+.events-carousel li .header-post .date{
+	background: #0088cc;
+	background: rgba(0, 136, 204, 0.6);
+}
+
+/* Colors ----------------------------------------------------------*/
+
+blockquote > a,
+.tweet_time a,
+.tweet_text a,
+.tags i,
+.text-resalt,
+.post-item h4 a:hover,
+.post-item p a,
+.links li i,
+.entry-title a,
+.info-clubs h4 a:hover,
+.sf-menu .sf-mega ul li a:hover,
+.sf-menu li li a:hover,
+.crumbs ul li a:hover,
+.crumbs li a,
+.page-error h1 i,
+.sitemap li a:hover,
+.pagination > li > a, .pagination > li > span,
+address i,
+.events-carousel h4 a,
+address a,
+.list li i,
+
+
+.post-item .data-info a,
+.subtitle span,
+.item-boxed-service a,
+.breadcrumbs ul li a,
+.acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover,
+.sf-menu > li:hover > a,
+footer.footer-2 .links-footer ul li a:hover,
+.popover-header,
+.item-player .info-player h4 span,
+.portfolioFilter h5 i,
+.section-title-team h6 strong,
+.section-title-team h6 a,
+.recent-results .info-results ul li .head .date{
+	color: $main-skin;
+}
+
+/* Borders ----------------------------------------------------------*/
+
+.nav-tabs li a.active:after,
+.nav-tabs li.active a:after{
+	border: 6px solid $main-skin;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+}
+
+.style-caption p,
+.item-clubs{
+	border-right: 5px solid $main-skin;
+}
+.titles h4{
+	border-left: 5px solid $main-skin;
+}
+.pagination > .active > a,
+.pagination > .active:hover > a,
+.portfolioFilter .current:before, .portfolioFilter a:hover:before{
+	border-color: $main-skin !important;
+}
+.style-caption h1:before{
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 40px solid $main-skin;
+}
+.crumbs:before{
+	border-bottom: 20px solid $main-skin;
+}
+.stats-info ul{
+  border-top-color: $main-skin !important;
+}
+.sf-menu li:hover > .sf-mega,
+.sf-menu li.sfHover > .sf-mega,
+.mainmenu,
+.sf-menu .sub-current,
+.header-2{
+	border-bottom: 3px solid $main-skin;
+}
+.header-2 .is-sticky{
+	border-bottom: 3px solid $main-skin !important;
+}
+header,
+.overlay-player,
+.crumbs{
+	border-top: 3px solid $main-skin;
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+  border-top-color: $main-skin; /* IE8 fallback colour */
+}
+ul.sub-current .current  > .sf-with-ul:focus:after,
+ul.sub-current .current:hover > .sf-with-ul:after,
+ul.sub-current .current .sfHover > .sf-with-ul:after {
+  border-left-color: $main-skin; /* IE8 fallback colour */
+}

@@ -1,0 +1,3 @@
+guide_homepage:
+    path:     /guide
+    defaults: { _controller: GuideBundle:Default:index }
