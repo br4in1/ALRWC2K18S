@@ -20,7 +20,7 @@ shop:
 
 gallery:
     resource: "@GalleryBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /gallery
 
 user:
     resource: "@UserBundle/Controller/"

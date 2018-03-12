@@ -51,7 +51,6 @@
                 </div>
                 <div class="modal-footer" style="text-align: center; display: block;">
                     <!--<button type="submit" class="btn btn-danger btn-default pull-left" style="font-size: smaller;" data-dismiss="modal"><span class="fa fa-remove"></span> Cancel</button>-->
-                    <p>Not a member? <a data-toggle="modal" id="register_form_show" data-target="#myModal_Register" href="{{ path('fos_user_registration_register') }}">Sign Up</a></p>
                     <p>Forgot <a href="#">Password?</a></p>
                 </div>
             </div>
@@ -147,7 +146,7 @@
                     </div>
                     <div class="col-md-6">
                         <a data-toggle="modal" data-target="#myModal_Register" id="register_form_show"
-                           href="{{ path('fos_user_security_login') }}" style="color:white;font-weight: bold; font-size: small; float: right;">Register</a>
+                           href="#" style="color:white;font-weight: bold; font-size: small; float: right;">Register</a>
                         <span style="color:white;font-weight: bold; font-size: small; float: right;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                         <a data-toggle="modal" data-target="#myModal" id="myBtn"
                            href="{{ path('fos_user_security_login') }}" style="color:white;font-weight: bold; font-size: small; float: right;">Login</a>
@@ -660,7 +659,7 @@
             $("#mainnavbar").css("z-index","1");
         });
         $("#register_form_show").click(function(){
-            $("#myModal").modal('toggle');
+            console.log("test");
             $("#myModal_Register").modal('toggle');
             $("#mainnavbar").css("z-index","1");
         });
